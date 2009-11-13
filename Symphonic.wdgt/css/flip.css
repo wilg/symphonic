@@ -1,0 +1,22 @@
+
+.flip {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width:45px;
+	height:36px;
+}
+
+#flip {
+	opacity:0;
+	background: url(file:///System/Library/WidgetResources/ibutton/black_i.png) no-repeat top left;
+	z-index:8000;
+}
+
+#fliprollie {
+	display:none;
+	opacity:0.5;
+	background: url(../images/fliprollie.png) no-repeat top left;
+	z-index:7999;
+
+}

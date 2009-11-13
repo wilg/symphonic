@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	background-repeat: no-repeat;
+	background-image: url(../Default.png);
+}
+
+#front {
+	width: 272px;
+	height: 36px;
+}
+
+#search_area {
+	position: absolute;
+	right: 10px;
+	top: 3px;
+}
+
+#update {
+	position: absolute;
+	right: 10px;
+	top: 4px;
+	z-index: 3333;
+}
+
+#searchField {
+	font-size: 16px;
+	width: 220px;
+	text-align: left;
+}
+
+#info_area {
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+#info_box {
+	display: none;
+	background-image: url(../images/infobg.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	height: 33px;
+	width: 220px;
+}
+
+.info_icon {
+	display: inline;
+	position: relative;
+	bottom: 1px;
+	right: 5px;
+}
+
+#info_wrap {
+	font: 10px "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: bold;
+	color: white;
+	text-shadow: #303030 0px 1px 3px;
+	width: 210px;
+	position: absolute;
+	left: 7px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.info_text {
+	font: 10px "Helvetica";
+	font-weight: bold;
+	color: white;
+	text-shadow: #303030 0px 1px 3px;
+}
+
+#back {
+	display: none;
+	background-image: url(../images/symphonic_back.png);
+	background-repeat: no-repeat;
+	width: 272px;
+	height: 36px;
+}
+
+#done_button {
+	position: absolute;
+	right: 15px;
+	top: 5px;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#copyright {
+	position: absolute;
+	left: 17px;
+	bottom: 7px;
+	font: 9px "Helvetica";
+	font-weight: bold;
+	color: gray;
+}
+
+#help {
+	position: absolute;
+	left: 15px;
+	bottom: 20px;
+	font: 10px "Helvetica";
+	font-weight: bold;
+	color: white;
+}
+
+.mode {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 33px;
+	width: 33px;
+}
+
+.searchstring {
+	
+}
